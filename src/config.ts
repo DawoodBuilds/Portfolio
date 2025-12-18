@@ -14,7 +14,7 @@ export const config = {
   about: {
     title: "About Me",
     description:
-      "Full-stack builder crafting high-performance digital systems that bridge modern web architecture and AI. I specialize in developing end-to-end applications using the MERN stack, TypeScript, and Python, prioritizing technical clarity and robust scalability",
+      "Full-stack builder crafting high-performance digital systems that bridge modern web architecture and AI. I specialize in developing end-to-end applications using the MERN stack, TypeScript, and Python, prioritizing technical clarity and robust scalability.",
   },
   experiences: [
     {
