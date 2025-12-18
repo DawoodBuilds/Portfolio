@@ -18,12 +18,12 @@ export const config = {
   },
   experiences: [
     {
-      position: "Full Stack Developer",
+      position: "Frontend Developer",
       company: "SelectSkillSet",
-      period: "2024 - Present",
+      period: "2023 - 2024",
       location: "Remote",
       description:
-        "Developed and maintained full-stack web applications, working on both frontend and backend systems. Collaborated with cross-functional teams to deliver robust software solutions.",
+        "Developing modern, responsive frontend applications with focus on user experience and performance. Working with cutting-edge technologies to build scalable web solutions.",
       responsibilities: [
         "Building responsive and interactive user interfaces using React and Next.js",
         "Implementing modern UI/UX designs with TailwindCSS and Framer Motion",
@@ -40,11 +40,11 @@ export const config = {
       ],
     },
     {
-      position: "Frontend Developer",
-      period: "2023 - 2024",
+      position: "Full Stack Developer",
+      period: "2024 - Present",
       location: "Remote",
       description:
-        "Developing modern, responsive frontend applications with focus on user experience and performance. Working with cutting-edge technologies to build scalable web solutions.",
+        "Developed and maintained full-stack web applications, working on both frontend and backend systems. Collaborated with cross-functional teams to deliver robust software solutions.",
       responsibilities: [
         "Developed and maintained full-stack web applications using React, Node.js, and MongoDB",
         "Implemented RESTful APIs and integrated third-party services",
