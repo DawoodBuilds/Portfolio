@@ -22,7 +22,7 @@ export function initialFX() {
   const elements = selectors.flatMap((selector) =>
     Array.from(document.querySelectorAll(selector))
   );
-  var landingText = new TextSplitter(elements, {
+  const landingText = new TextSplitter(elements, {
     type: "chars,lines",
     linesClass: "split-line",
   });
@@ -40,9 +40,9 @@ export function initialFX() {
     }
   );
 
-  let TextProps = { type: "chars,lines", linesClass: "split-h2" };
+  const TextProps = { type: "chars,lines", linesClass: "split-h2" };
 
-  var landingText2 = new TextSplitter(".landing-h2-info", TextProps);
+  const landingText2 = new TextSplitter(".landing-h2-info", TextProps);
   gsap.fromTo(
     landingText2.chars,
     { opacity: 0, y: 80, filter: "blur(5px)" },
@@ -79,17 +79,17 @@ export function initialFX() {
     }
   );
 
-  var landingText3 = new TextSplitter(".landing-h2-info-1", TextProps);
-  var landingText4 = new TextSplitter(".landing-h2-1", TextProps);
-  var landingText5 = new TextSplitter(".landing-h2-2", TextProps);
+  const landingText3 = new TextSplitter(".landing-h2-info-1", TextProps);
+  const landingText4 = new TextSplitter(".landing-h2-1", TextProps);
+  const landingText5 = new TextSplitter(".landing-h2-2", TextProps);
 
   LoopText(landingText2, landingText3);
   LoopText(landingText4, landingText5);
 }
 
 function LoopText(Text1: TextSplitter, Text2: TextSplitter) {
-  var tl = gsap.timeline({ repeat: -1, repeatDelay: 1 });
-  const delay = 4;
+  const tl = gsap.timeline({ delay: 1 });
+  const delay = 1;
   const delay2 = delay * 2 + 1;
 
   tl.fromTo(
